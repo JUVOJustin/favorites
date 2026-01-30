@@ -25,14 +25,6 @@ msgstr ""
 msgid "Anonymous User"
 msgstr ""
 
-#: app/Activation/Activate.php:39
-msgid "Favorite <i class=\"sf-icon-star-empty\"></i>"
-msgstr ""
-
-#: app/Activation/Activate.php:40
-msgid "Favorited <i class=\"sf-icon-star-full\"></i>"
-msgstr ""
-
 #: app/Bootstrap.php:59
 #: app/Views/settings/settings-display.php:20
 #: app/Views/settings/settings-display.php:197
@@ -44,98 +36,124 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:145
+#. translators: Message shown to unauthenticated users when they try to favorite a post
+#: app/Config/SettingsRepository.php:146
 msgid "Please login to add favorites."
 msgstr ""
 
-#: app/Config/SettingsRepository.php:146
+#. translators: Link text to close the authentication modal
+#: app/Config/SettingsRepository.php:148
 msgid "Dismiss this notice"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:184
-#: app/Config/SettingsRepository.php:401
-#: app/Config/SettingsRepository.php:404
+#. translators: Button text to add a post to favorites (action verb, not noun). HTML icon is appended after translation.
+#. translators: Button text to add a post to favorites (action verb, not noun)
+#. translators: Label for the favorite button type (noun, used in settings dropdown)
+#. translators: Button text to add item to favorites (action verb)
+#: app/Activation/Activate.php:40
+#: app/Config/SettingsRepository.php:187
+#: app/Config/SettingsRepository.php:419
+#: app/Config/SettingsRepository.php:423
 msgid "Favorite"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:196
-#: app/Config/SettingsRepository.php:405
+#. translators: Button text indicating a post has been added to favorites (past tense). HTML icon is appended after translation.
+#. translators: Button text indicating a post has been added to favorites (past tense)
+#. translators: Button text indicating item has been favorited (past tense)
+#: app/Activation/Activate.php:42
+#: app/Config/SettingsRepository.php:201
+#: app/Config/SettingsRepository.php:425
 msgid "Favorited"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:208
+#. translators: Button text to remove all favorited posts (call to action)
+#: app/Config/SettingsRepository.php:215
 msgid "Clear Favorites"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:269
+#. translators: Text shown while favorite button is processing (loading state)
+#: app/Config/SettingsRepository.php:281
 msgid "Loading"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:352
+#. translators: Message displayed when user has no favorites saved (empty state)
+#: app/Config/SettingsRepository.php:368
 msgid "No Favorites"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:408
-#: app/Config/SettingsRepository.php:411
+#. translators: Label for the like button type (noun, used in settings dropdown)
+#. translators: Button text to like an item (action verb)
+#: app/Config/SettingsRepository.php:429
+#: app/Config/SettingsRepository.php:433
 msgid "Like"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:412
+#. translators: Button text indicating item has been liked (past tense)
+#: app/Config/SettingsRepository.php:435
 msgid "Liked"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:415
-#: app/Config/SettingsRepository.php:418
+#. translators: Label for the love button type (noun, used in settings dropdown)
+#. translators: Button text to love an item (action verb)
+#: app/Config/SettingsRepository.php:439
+#: app/Config/SettingsRepository.php:443
 msgid "Love"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:419
+#. translators: Button text indicating item has been loved (past tense)
+#: app/Config/SettingsRepository.php:445
 msgid "Loved"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:422
-#: app/Config/SettingsRepository.php:425
+#. translators: Label for the bookmark button type (noun, used in settings dropdown)
+#. translators: Button text to bookmark an item (action verb)
+#: app/Config/SettingsRepository.php:449
+#: app/Config/SettingsRepository.php:453
 msgid "Bookmark"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:426
+#. translators: Button text indicating item has been bookmarked (past tense)
+#: app/Config/SettingsRepository.php:455
 msgid "Bookmarked"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:429
+#. translators: Label for the wishlist button type (noun, used in settings dropdown)
+#: app/Config/SettingsRepository.php:459
 msgid "Wishlist"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:432
+#. translators: Button text to add item to wishlist (action verb)
+#: app/Config/SettingsRepository.php:463
 msgid "Add to Wishlist"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:433
+#. translators: Button text indicating item has been added to wishlist (past tense)
+#: app/Config/SettingsRepository.php:465
 msgid "Added to Wishlist"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:469
-#: app/Config/SettingsRepository.php:476
+#: app/Config/SettingsRepository.php:501
+#: app/Config/SettingsRepository.php:508
 msgid "Background Color"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:470
-#: app/Config/SettingsRepository.php:477
+#: app/Config/SettingsRepository.php:502
+#: app/Config/SettingsRepository.php:509
 msgid "Border Color"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:471
-#: app/Config/SettingsRepository.php:478
+#: app/Config/SettingsRepository.php:503
+#: app/Config/SettingsRepository.php:510
 msgid "Text Color"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:472
-#: app/Config/SettingsRepository.php:479
+#: app/Config/SettingsRepository.php:504
+#: app/Config/SettingsRepository.php:511
 msgid "Icon Color"
 msgstr ""
 
-#: app/Config/SettingsRepository.php:473
-#: app/Config/SettingsRepository.php:480
+#: app/Config/SettingsRepository.php:505
+#: app/Config/SettingsRepository.php:512
 msgid "Count Color"
 msgstr ""
 
