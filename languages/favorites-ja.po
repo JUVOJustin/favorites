@@ -1,20 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Favorites\n"
-"POT-Creation-Date: 2023-05-31 19:18+0900\n"
-"PO-Revision-Date: 2023-05-31 20:13+0900\n"
+"Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-31 19:18+0900\n"
+"PO-Revision-Date: 2023-05-31 20:13+0900\n"
+"Language: ja\n"
 "X-Generator: Poedit 3.3.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: app/API/Shortcodes/PostFavoritesShortcode.php:27
@@ -34,11 +33,10 @@ msgstr "お気に入り<i class=\"sf-icon-star-empty\"></i>"
 msgid "Favorited <i class=\"sf-icon-star-full\"></i>"
 msgstr "お気に入り済み <i class=\"sf-icon-star-full\"></i>"
 
-#: app/Bootstrap.php:59 app/Config/Settings.php:52
+#: app/Bootstrap.php:59
 #: app/Views/settings/settings-display.php:20
 #: app/Views/settings/settings-display.php:197
 #: app/Views/settings/settings-display.php:244
-#: app/Views/settings/settings.php:2
 msgid "Settings"
 msgstr "設定"
 
@@ -54,12 +52,14 @@ msgstr "お気に入りを追加するにはログインしてください。"
 msgid "Dismiss this notice"
 msgstr "この通知を非表示にする"
 
-#: app/Config/SettingsRepository.php:184 app/Config/SettingsRepository.php:399
-#: app/Config/SettingsRepository.php:402
+#: app/Config/SettingsRepository.php:184
+#: app/Config/SettingsRepository.php:401
+#: app/Config/SettingsRepository.php:404
 msgid "Favorite"
 msgstr "お気に入り"
 
-#: app/Config/SettingsRepository.php:196 app/Config/SettingsRepository.php:403
+#: app/Config/SettingsRepository.php:196
+#: app/Config/SettingsRepository.php:405
 msgid "Favorited"
 msgstr "お気に入り済み"
 
@@ -67,67 +67,75 @@ msgstr "お気に入り済み"
 msgid "Clear Favorites"
 msgstr "お気に入りを消去"
 
-#: app/Config/SettingsRepository.php:268
+#: app/Config/SettingsRepository.php:269
 msgid "Loading"
 msgstr "ロード中"
 
-#: app/Config/SettingsRepository.php:351
+#: app/Config/SettingsRepository.php:352
 msgid "No Favorites"
 msgstr "お気に入りなし"
 
-#: app/Config/SettingsRepository.php:406 app/Config/SettingsRepository.php:409
+#: app/Config/SettingsRepository.php:408
+#: app/Config/SettingsRepository.php:411
 msgid "Like"
 msgstr "いいね"
 
-#: app/Config/SettingsRepository.php:410
+#: app/Config/SettingsRepository.php:412
 msgid "Liked"
 msgstr "いいね済み"
 
-#: app/Config/SettingsRepository.php:413 app/Config/SettingsRepository.php:416
+#: app/Config/SettingsRepository.php:415
+#: app/Config/SettingsRepository.php:418
 msgid "Love"
 msgstr "好き"
 
-#: app/Config/SettingsRepository.php:417
+#: app/Config/SettingsRepository.php:419
 msgid "Loved"
 msgstr "好き済み"
 
-#: app/Config/SettingsRepository.php:420 app/Config/SettingsRepository.php:423
+#: app/Config/SettingsRepository.php:422
+#: app/Config/SettingsRepository.php:425
 msgid "Bookmark"
 msgstr "ブックマーク"
 
-#: app/Config/SettingsRepository.php:424
+#: app/Config/SettingsRepository.php:426
 msgid "Bookmarked"
 msgstr "ブックマーク済み"
 
-#: app/Config/SettingsRepository.php:427
+#: app/Config/SettingsRepository.php:429
 msgid "Wishlist"
 msgstr "ウィッシュリスト"
 
-#: app/Config/SettingsRepository.php:430
+#: app/Config/SettingsRepository.php:432
 msgid "Add to Wishlist"
 msgstr "ウィッシュリストに追加"
 
-#: app/Config/SettingsRepository.php:431
+#: app/Config/SettingsRepository.php:433
 msgid "Added to Wishlist"
 msgstr "ウィッシュリストに追加済み"
 
-#: app/Config/SettingsRepository.php:467 app/Config/SettingsRepository.php:474
+#: app/Config/SettingsRepository.php:469
+#: app/Config/SettingsRepository.php:476
 msgid "Background Color"
 msgstr "背景色"
 
-#: app/Config/SettingsRepository.php:468 app/Config/SettingsRepository.php:475
+#: app/Config/SettingsRepository.php:470
+#: app/Config/SettingsRepository.php:477
 msgid "Border Color"
 msgstr "枠線の色"
 
-#: app/Config/SettingsRepository.php:469 app/Config/SettingsRepository.php:476
+#: app/Config/SettingsRepository.php:471
+#: app/Config/SettingsRepository.php:478
 msgid "Text Color"
 msgstr "文字の色"
 
-#: app/Config/SettingsRepository.php:470 app/Config/SettingsRepository.php:477
+#: app/Config/SettingsRepository.php:472
+#: app/Config/SettingsRepository.php:479
 msgid "Icon Color"
 msgstr "アイコンの色"
 
-#: app/Config/SettingsRepository.php:471 app/Config/SettingsRepository.php:478
+#: app/Config/SettingsRepository.php:473
+#: app/Config/SettingsRepository.php:480
 msgid "Count Color"
 msgstr "カウントの色"
 
@@ -136,8 +144,11 @@ msgstr "カウントの色"
 msgid "Default List"
 msgstr "デフォルトリスト"
 
-#: app/Entities/Post/AdminColumns.php:63 app/Entities/Post/PostMeta.php:28
-#: app/Favorites.php:18
+#. Plugin Name of the plugin
+#: favorites.php
+#: app/Config/Settings.php:38
+#: app/Entities/Post/AdminColumns.php:63
+#: app/Entities/Post/PostMeta.php:28
 msgid "Favorites"
 msgstr "お気に入り"
 
@@ -162,12 +173,8 @@ msgid "Insert Favorite button before content"
 msgstr "本文の前にお気に入りボタンを挿入"
 
 #: app/Views/settings/settings-display.php:26
-msgid ""
-"Favorite buttons are automatically inserted before the content using "
-"the_content filter."
-msgstr ""
-"the_contentフィルターを使って、本文の前にお気に入りボタンが自動的に挿入され"
-"ます。"
+msgid "Favorite buttons are automatically inserted before the content using the_content filter."
+msgstr "the_contentフィルターを使って、本文の前にお気に入りボタンが自動的に挿入されます。"
 
 #: app/Views/settings/settings-display.php:29
 msgid "Include before content"
@@ -178,12 +185,8 @@ msgid "Insert Favorite button after content"
 msgstr "本文の後にお気に入りボタンを挿入"
 
 #: app/Views/settings/settings-display.php:35
-msgid ""
-"Favorite buttons are automatically inserted after the content using "
-"the_content filter."
-msgstr ""
-"the_contentフィルターを使って、本文の後ろにお気に入りボタンが自動的に挿入さ"
-"れます。"
+msgid "Favorite buttons are automatically inserted after the content using the_content filter."
+msgstr "the_contentフィルターを使って、本文の後ろにお気に入りボタンが自動的に挿入されます。"
 
 #: app/Views/settings/settings-display.php:38
 msgid "Include after content"
@@ -194,8 +197,7 @@ msgid "Show favorite count on post edit screen"
 msgstr "投稿編集画面でお気に入り数を表示"
 
 #: app/Views/settings/settings-display.php:44
-msgid ""
-"Adds a meta box with the total number of favorites the post has received."
+msgid "Adds a meta box with the total number of favorites the post has received."
 msgstr "その投稿のお気に入り総数を表示するメタボックスを追加します。"
 
 #: app/Views/settings/settings-display.php:47
@@ -252,9 +254,7 @@ msgstr "ボタンタイプ"
 
 #: app/Views/settings/settings-display.php:85
 msgid "Use a predefined button or add your own markup."
-msgstr ""
-"あらかじめ定義されたボタンを使用するか、独自のマークアップを追加してくださ"
-"い。"
+msgstr "あらかじめ定義されたボタンを使用するか、独自のマークアップを追加してください。"
 
 #: app/Views/settings/settings-display.php:90
 msgid "Custom Markup"
@@ -269,14 +269,8 @@ msgid "Color Options"
 msgstr "色の設定"
 
 #: app/Views/settings/settings-display.php:114
-msgid ""
-"If colors are not specified, theme colors will apply. Note: theme styles "
-"will effect the appearance of the favorites button. The button is displayed "
-"in a button element, with a css class of \"simplefavorites-button\"."
-msgstr ""
-"色が指定されていない場合はテーマカラーが適用されます。注意: テーマのスタイル"
-"がお気に入りボタンの外観に影響します。ボタンはbutton要素で表示され、cssクラ"
-"スは \"simplefavorites-button \"となります。"
+msgid "If colors are not specified, theme colors will apply. Note: theme styles will effect the appearance of the favorites button. The button is displayed in a button element, with a css class of \"simplefavorites-button\"."
+msgstr "色が指定されていない場合はテーマカラーが適用されます。注意: テーマのスタイルがお気に入りボタンの外観に影響します。ボタンはbutton要素で表示され、cssクラスは \"simplefavorites-button \"となります。"
 
 #: app/Views/settings/settings-display.php:117
 msgid "Specify custom colors"
@@ -320,8 +314,7 @@ msgid "Include Total Favorite Count"
 msgstr "お気に入り総数を含める"
 
 #: app/Views/settings/settings-display.php:181
-msgid ""
-"Adds the total number of times the post has been favorited to the button."
+msgid "Adds the total number of times the post has been favorited to the button."
 msgstr "ボタンにお気に入りされた総数を追加します。"
 
 #: app/Views/settings/settings-display.php:184
@@ -345,8 +338,7 @@ msgid "Loading Text"
 msgstr "ローディングテキスト"
 
 #: app/Views/settings/settings-display.php:203
-msgid ""
-"Replaces the unfavorited/favorited button text during the loading state."
+msgid "Replaces the unfavorited/favorited button text during the loading state."
 msgstr "ローディング中にお気に入りボタンのテキストを置き換えます。"
 
 #: app/Views/settings/settings-display.php:206
@@ -358,12 +350,8 @@ msgid "Loading Spinner"
 msgstr "ローディングスピナー"
 
 #: app/Views/settings/settings-display.php:213
-msgid ""
-"Adds a spinner to the button during loading state. See plugin documentation "
-"for filters available for theme customization."
-msgstr ""
-"ローディング中のボタンにスピナーを追加します。テーマのカスタマイズに利用可能"
-"なフィルターについては、プラグインのドキュメントを参照してください。"
+msgid "Adds a spinner to the button during loading state. See plugin documentation for filters available for theme customization."
+msgstr "ローディング中のボタンにスピナーを追加します。テーマのカスタマイズに利用可能なフィルターについては、プラグインのドキュメントを参照してください。"
 
 #: app/Views/settings/settings-display.php:216
 msgid "Use CSS/HTML Spinner"
@@ -378,9 +366,7 @@ msgid "Page Load"
 msgstr "ページ読み込み"
 
 #: app/Views/settings/settings-display.php:225
-msgid ""
-"Adds the loading state to favorites buttons during page load. Helpful on "
-"sites with page cache enabled."
+msgid "Adds the loading state to favorites buttons during page load. Helpful on sites with page cache enabled."
 msgstr ""
 "ページ読み込み中のお気に入りボタンをローディング\n"
 "状態にします。ページキャッシュを有効にしているサイトで役立ちます。"
@@ -463,26 +449,16 @@ msgid "Important:"
 msgstr "重要:"
 
 #: app/Views/settings/settings-display.php:294
-msgid ""
-"By customizing the listing content, some shortcode options will not apply. "
-"These options include: include_links, include_buttons, include_thumbnails, "
-"and thumbnail_size"
-msgstr ""
-"リスト内容をカスタマイズすると、一部のショートコードオプションが適用されなく"
-"なります。これらのオプションには、include_links, include_buttons, "
-"include_thumbnails, 及びthumbnail_sizeが含まれます"
+msgid "By customizing the listing content, some shortcode options will not apply. These options include: include_links, include_buttons, include_thumbnails, and thumbnail_size"
+msgstr "リスト内容をカスタマイズすると、一部のショートコードオプションが適用されなくなります。これらのオプションには、include_links, include_buttons, include_thumbnails, 及びthumbnail_sizeが含まれます"
 
 #: app/Views/settings/settings-display.php:297
 msgid "Add Dynamic Fields"
 msgstr "動的フィールドの追加"
 
 #: app/Views/settings/settings-display.php:298
-msgid ""
-"To add a custom meta field, use the format <code>[custom_field:"
-"custom_field_name]</code>"
-msgstr ""
-"カスタムメタフィールドを追加するには以下の書式を使います。"
-"<code>[custom_field:custom_field_name]</code>"
+msgid "To add a custom meta field, use the format <code>[custom_field:custom_field_name]</code>"
+msgstr "カスタムメタフィールドを追加するには以下の書式を使います。<code>[custom_field:custom_field_name]</code>"
 
 #: app/Views/settings/settings-display.php:301
 msgid "Post Fields"
@@ -534,12 +510,8 @@ msgid "Clear Favorites Button Text"
 msgstr "お気に入り削除ボタンのテキスト"
 
 #: app/Views/settings/settings-display.php:349
-msgid ""
-"The text that appears in the \"Clear Favorites\" button by default. Note, "
-"the text may be overridden in the shortcode or function call."
-msgstr ""
-"「お気に入りを消去」ボタンに表示されるデフォルトのテキストです。なお、このテ"
-"キストは、ショートコードや関数呼び出しで上書きすることができます。"
+msgid "The text that appears in the \"Clear Favorites\" button by default. Note, the text may be overridden in the shortcode or function call."
+msgstr "「お気に入りを消去」ボタンに表示されるデフォルトのテキストです。なお、このテキストは、ショートコードや関数呼び出しで上書きすることができます。"
 
 #: app/Views/settings/settings-display.php:352
 msgid "Clear Favorites Button Text/HTML"
@@ -551,8 +523,7 @@ msgstr "お気に入りなしのテキスト"
 
 #: app/Views/settings/settings-display.php:359
 msgid "Appears in user favorite lists when they have not favorited any posts."
-msgstr ""
-"ユーザがどの投稿もお気に入りしていない場合にお気に入りリストに表示されます。"
+msgstr "ユーザがどの投稿もお気に入りしていない場合にお気に入りリストに表示されます。"
 
 #: app/Views/settings/settings-display.php:362
 msgid "No Favorites Text/HTML"
@@ -563,22 +534,12 @@ msgid "Page Cache"
 msgstr "ページキャッシュ"
 
 #: app/Views/settings/settings-general.php:10
-msgid ""
-"Cache Enabled on Site (Favorites content is injected on page load with AJAX "
-"request)"
-msgstr ""
-"サイトキャッシュ有効 (ページロード時にAjaxリクエストでFavoritesの要素が注入"
-"されます)"
+msgid "Cache Enabled on Site (Favorites content is injected on page load with AJAX request)"
+msgstr "サイトキャッシュ有効 (ページロード時にAjaxリクエストでFavoritesの要素が注入されます)"
 
 #: app/Views/settings/settings-general.php:15
 msgid "Development Mode"
 msgstr "開発モード"
-
-#: app/Views/settings/settings-general.php:22
-msgid ""
-"Enable Development Mode (logs JS responses in the console for debugging)"
-msgstr ""
-"開発モード有効 (デバッグのためにJSのレスポンスをコンソールに記録します)"
 
 #: app/Views/settings/settings-general.php:27
 msgid "Dependencies"
@@ -601,26 +562,16 @@ msgid "Enqueue Plugin Javascript"
 msgstr "プラグインJavaScriptのenqueue"
 
 #: app/Views/settings/settings-general.php:45
-msgid ""
-"Important: The plugin JavaScript is required for core functions. If this is "
-"disabled, the plugin JS <strong>must</strong> be included with the theme "
-"along with the global JS variables."
-msgstr ""
-"重要: プラグインのJavaScriptはコア機能に必須です。この項目を無効にする場合、"
-"プラグインJSはグローバルJS変数と一緒にテーマに含めることが<strong>必須</"
-"strong>です。"
+msgid "Important: The plugin JavaScript is required for core functions. If this is disabled, the plugin JS <strong>must</strong> be included with the theme along with the global JS variables."
+msgstr "重要: プラグインのJavaScriptはコア機能に必須です。この項目を無効にする場合、プラグインJSはグローバルJS変数と一緒にテーマに含めることが<strong>必須</strong>です。"
 
 #: app/Views/settings/settings-general.php:49
 msgid "Output Plugin JavaScript"
 msgstr "プラグインのJavaScriptを出力"
 
 #: app/Views/settings/settings-general.php:52
-msgid ""
-"If you are compiling your own minified Javascript, include the below "
-"(required for plugin functionality):"
-msgstr ""
-"自身でminified JavaScriptをコンパイルする場合は、以下を含めてください (プラ"
-"グインの機能に必須です):"
+msgid "If you are compiling your own minified Javascript, include the below (required for plugin functionality):"
+msgstr "自身でminified JavaScriptをコンパイルする場合は、以下を含めてください (プラグインの機能に必須です):"
 
 #: app/Views/settings/settings-general.php:60
 msgid "Favorites Version"
@@ -647,18 +598,12 @@ msgid "User Cookie Consent"
 msgstr "ユーザーのCookie同意"
 
 #: app/Views/settings/settings-users.php:20
-msgid ""
-"Require user consent for saving cookies before allowing favorites to be "
-"saved."
+msgid "Require user consent for saving cookies before allowing favorites to be saved."
 msgstr "Cookieにお気に入りを保存する前にユーザーの同意を必須にします。"
 
 #: app/Views/settings/settings-users.php:20
-msgid ""
-"If using this option for GDPR compliance, please consult an attorney for "
-"appropriate legal terms to display in the modal consent."
-msgstr ""
-"GDPR対応でこのオプションを使用する場合は、モーダル同意に表示する適切な法律用"
-"語について弁護士にご相談ください。"
+msgid "If using this option for GDPR compliance, please consult an attorney for appropriate legal terms to display in the modal consent."
+msgstr "GDPR対応でこのオプションを使用する場合は、モーダル同意に表示する適切な法律用語について弁護士にご相談ください。"
 
 #: app/Views/settings/settings-users.php:23
 msgid "Require User Consent"
@@ -681,12 +626,8 @@ msgid "Anonymous Favoriting Behavior"
 msgstr "匿名ユーザーのお気に入り動作"
 
 #: app/Views/settings/settings-users.php:50
-msgid ""
-"By default, favorite buttons are hidden from unauthenticated users if "
-"anonymous users are disabled."
-msgstr ""
-"デフォルトでは、匿名ユーザーを無効にしている場合、認証されていないユーザーか"
-"らはお気に入りボタンが非表示になります。"
+msgid "By default, favorite buttons are hidden from unauthenticated users if anonymous users are disabled."
+msgstr "デフォルトでは、匿名ユーザーを無効にしている場合、認証されていないユーザーからはお気に入りボタンが非表示になります。"
 
 #: app/Views/settings/settings-users.php:53
 msgid "Show Buttons and Display Modal for Anonymous Users"
@@ -705,37 +646,20 @@ msgid "Important: "
 msgstr "重要: "
 
 #: app/Views/settings/settings-users.php:59
-msgid ""
-"If plugin css or javascript has been disabled, the modal window will not "
-"display correctly."
-msgstr ""
-"プラグインCSSかJavaScriptが無効の場合、モーダルウィンドウは正しく表示されま"
-"せん。"
+msgid "If plugin css or javascript has been disabled, the modal window will not display correctly."
+msgstr "プラグインCSSかJavaScriptが無効の場合、モーダルウィンドウは正しく表示されません。"
 
 #: app/Views/settings/settings-users.php:60
-msgid ""
-"To add \"close\" button or link, give it a data attribute of \"data-"
-"favorites-modal-close\"."
-msgstr ""
-"「閉じる」ボタンやリンクを追加するには、\"data-favorites-modal-close\"という"
-"データ属性を指定してください。"
-
-#: app/Views/settings/settings-users.php:72
-msgid "Enter the Page/Post ID to redirect to (defaults to the site url)"
-msgstr ""
-"リダイレクト先のページ/投稿IDを入力してください (デフォルトではサイトURL)"
+msgid "To add \"close\" button or link, give it a data attribute of \"data-favorites-modal-close\"."
+msgstr "「閉じる」ボタンやリンクを追加するには、\"data-favorites-modal-close\"というデータ属性を指定してください。"
 
 #: app/Views/settings/settings-users.php:79
 msgid "Save Unauthenticated Favorites as"
 msgstr "未認証のお気に入り保存"
 
 #: app/Views/settings/settings-users.php:80
-msgid ""
-"Unauthenticated users' favorites may be saved in either cookies or session. "
-"Authenticated users' favorites are saved as user meta."
-msgstr ""
-"認証されていないユーザーのお気に入りはCookieとセッションのいずれかに保存され"
-"ます。認証ユーザーのお気に入りはユーザーメタに保存されます。"
+msgid "Unauthenticated users' favorites may be saved in either cookies or session. Authenticated users' favorites are saved as user meta."
+msgstr "認証されていないユーザーのお気に入りはCookieとセッションのいずれかに保存されます。認証ユーザーのお気に入りはユーザーメタに保存されます。"
 
 #: app/Views/settings/settings-users.php:83
 msgid "Cookie"
@@ -757,15 +681,31 @@ msgstr "ユーザー"
 msgid "Display & Post Types"
 msgstr "表示・投稿タイプ"
 
-#~ msgid "Invalid form field"
-#~ msgstr "無効なフォームフィールド"
+#. Plugin URI of the plugin
+#: favorites.php
+msgid "http://favoriteposts.com"
+msgstr ""
 
-#~ msgid "Require Login to Favorite"
-#~ msgstr "お気に入りにはログインが必須"
+#. Description of the plugin
+#: favorites.php
+msgid "Simple and flexible favorite buttons for any post type."
+msgstr ""
 
-#~ msgid ""
-#~ "Show the buttons to unauthenticated users, but display a modal window "
-#~ "prompting them to login to save favorites."
-#~ msgstr ""
-#~ "認証されていないユーザーに対してボタンを表示するが、お気に入りを保存する"
-#~ "にはログインが必要と表示するモーダルウィンドウを表示します。"
+#. Author of the plugin
+#: favorites.php
+msgid "Kyle Phillips"
+msgstr ""
+
+#. Author URI of the plugin
+#: favorites.php
+msgid "https://github.com/kylephillips"
+msgstr ""
+
+#: app/Config/Settings.php:37
+#: app/Views/settings/settings.php:2
+msgid "Favorites Settings"
+msgstr "お気に入り設定"
+
+#: app/Views/settings/settings-general.php:22
+msgid "Enable Development Mode (logs JS responses in the console for debugging)"
+msgstr "開発モードを有効にする（コンソールでJSレスポンスを記録してデバッグ）"

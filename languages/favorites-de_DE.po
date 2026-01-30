@@ -1,5 +1,3 @@
-# Copyright (C) 2026 Kyle Phillips
-# This file is distributed under the GPLv2 or later..
 msgid ""
 msgstr ""
 "Project-Id-Version: Favorites 2.3.6\n"
@@ -703,3 +701,7 @@ msgstr "Benutzer"
 #: app/Views/settings/settings.php:12
 msgid "Display & Post Types"
 msgstr "Anzeige & Beitragstypen"
+
+#: app/Views/settings/settings-general.php:22
+msgid "Enable Development Mode (logs JS responses in the console for debugging)"
+msgstr "Entwicklermodus aktivieren (protokolliert JS-Antworten in der Konsole zur Fehlersuche)"
